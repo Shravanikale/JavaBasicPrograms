@@ -1,0 +1,13 @@
+class Swap_Nums{
+    int x=5;
+    int y=8;
+    int z;
+    public static void main(String args[]){
+        System.out.println("Before Sawpping the values of X:"+x+"Y:"+y);//prints initial values of x,y,z
+        z=x;
+        y=x;
+        y=z;
+        System.out.println("After Sawpping the values of X:"+x+"Y:"+y);//prints initial values of x,y,z
+
+    }
+}
